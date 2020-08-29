@@ -39,7 +39,7 @@ class App extends React.Component {
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country}/>
-                <footer className={styles.footerStyle}>"Stay Home","Stay Safe"</footer>
+                <footer className={styles.footerStyle}><a href="https://github.com/Kaushalvashisth/Corona-Tracker-301">Feel free to give &#9733; on Github</a></footer>
                 <footer className={styles.footerStyle2}> Big &#10084; Kaushal</footer>
             </div>
         )
